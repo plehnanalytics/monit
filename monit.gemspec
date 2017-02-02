@@ -18,9 +18,9 @@ Gem::Specification.new do |gem|
 
   gem.add_development_dependency "rake"
   gem.add_development_dependency "bundler"
-  gem.add_development_dependency "rspec", "~> 2.9.0"
-  gem.add_development_dependency "webmock", "~> 1.11.0"
+  gem.add_development_dependency "rspec", "~> 3.5.0"
+  gem.add_development_dependency "webmock", "~> 1.24.6"
 
-  gem.add_runtime_dependency "nokogiri", "~> 1.6"
-  gem.add_runtime_dependency "activesupport", "~> 3.2.18"
+  gem.add_runtime_dependency "nokogiri", "~> 1.7"
+  gem.add_runtime_dependency "activesupport", ">= 4.0.0"
 end
